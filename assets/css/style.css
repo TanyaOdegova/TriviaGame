@@ -1,0 +1,83 @@
+.img {
+    width: 640px;
+    height: auto;
+    border: white 5px;
+}
+#startGameButton {
+    background-color:grey; 
+    opacity: 0.5;
+    border-radius: 4px;
+    border: none;
+    color: black;
+    font-size: 30px;
+    font-family: IM Fell English SC;
+    padding: 20px;
+    margin-top: 20%;
+    cursor: pointer;
+}
+#startGameButton:hover {
+    opacity: 1;
+}
+
+#submitButton {
+    opacity: 0.5;
+    background-color:grey;
+    border-radius: 4px;
+    border: none;
+    color: black;
+    font-size: 25px;
+    padding: 10px;
+    font-family: IM Fell English SC;
+    cursor: pointer;
+}
+#submitButton:hover {
+opacity: 1;
+}
+#obliviateButton {
+    opacity: 0.5;
+    background-color:grey;
+    border-radius: 4px;
+    border: none;
+    color: black;
+    font-size: 25px;
+    padding: 10px;
+    font-family: IM Fell English SC;
+    cursor: pointer;
+}
+#obliviateButton:hover {
+opacity: 1;
+}
+
+.hidden {
+    display: none;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#gameWrapper,
+#resultsWrapper {
+    font-family: IM Fell English SC;
+    margin: 0 auto;
+    width: 80%;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.bold {
+    font-size: 20px;
+}
+
+body {
+margin-left: 5px;
+text-align: center;
+font-family: IM Fell English SC;
+}
+.radio {
+    cursor: pointer;
+}
+.footer {
+text-align: center;
+.footer:hover {
+cursor: pointer;
+}

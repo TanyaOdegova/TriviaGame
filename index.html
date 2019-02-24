@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Harry Potter Trivia Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Proza+Libre|Tangerine" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="https://www.rorydobner.com/wp-content/uploads/2018/01/Tiger-Tile-600x600.jpg">
+    <link href="https://fonts.googleapis.com/css?family=IM+Fell+English+SC" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body background="assets/images/isolemnlyswear2.jpg">
+    <div class="container">
+        <!--row1 with the banner image-->
+        <div id="banner">
+            <div class="col-lg-12">
+                <img src="assets/images/tumblr_static_tumblr_static__640.gif">
+            </div>
+        </div>
+
+        <button id="startGameButton" onclick="startGame()">
+            <span>Expelliarmus to Start the Quiz!</span>
+        </button>
+
+        <section id="gameWrapper" class="hidden">
+            <!--insert game title here-->
+            <div class="gameTitle">
+                <div class="col-lg-12">
+                    <href="https://fontmeme.com/harry-potter-font/">
+                        <img src="https://fontmeme.com/permalink/190224/4895f2e3375f55ebecb77b3a50e2d45f.png" alt="harry-potter-font" border="0">
+                        </a>
+                </div>
+            </div>
+            <p class="bold"> Time remaining:
+                <span id="showNumber"></span> seconds.</p>
+
+            <form action="" id="myForm"> </form>
+            <br>
+            </br>
+            <button id="submitButton" onclick="gradeMe()">Alohomora!</button>
+        </section>
+
+        <div id="resultsWrapper" class="hidden">
+            <h2>Felix Felicis!</h2>
+            <p>Correct Answers:
+                <span id="correct"></span>
+            </p>
+            <p>Incorrect Answers:
+                <span id="incorrect"></span>
+            </p>
+            <p>Unanswered:
+                <span id="unanswered"></span>
+            </p>
+            <button id="obliviateButton" onclick="playAgain()">Obliviate!</button>
+        </div>
+
+
+        <script src="assets/javascript/app.js"></script>
+</body>
+<!-- Footer -->
+<br>
+</br>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="footer-copyright">
+                    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" />
+                    <div>
+                        <a href="https://www.linkedin.com/in/todegova">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.pinterest.com/odegovat/">
+                            <i class="fa fa-pinterest"></i>
+                        </a>
+                        <a href="https://www.instagram.com/tanya____o/?hl=en">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-copyright">© 2019 Copyright
+                </div>
+</footer>
+
+</html>
